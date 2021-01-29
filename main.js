@@ -1,5 +1,12 @@
-function factorial(n) {
-    if (n <= 1) return 1;
-    return n * factorial(n-1);
+function convert(x) {
+switch(typeof x) {
+case 'number':
+return x.toString(16);
+case 'strig':
+return '"' + X + '"';
+default:
+return string(x);
 }
-factorial(n);
+}
+convert(x);
+
